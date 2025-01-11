@@ -227,14 +227,24 @@ button{
     width: 100%;
     height: 200px;
     border-radius: 16px;
+
+}
+.opinio-sec-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .opinion-th{
     width: 1000px;
     background-color: #C6E4D6;
 }   
 
-span{
-    text-align: right;
+
+
+.tablee ,tr ,th ,td{
+    border: 1px solid greenyellow;
+    border-collapse: 1;
 }
 
        /* .opinion-section */
