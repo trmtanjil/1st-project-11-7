@@ -222,10 +222,14 @@ button{
                       /* your opinion matters  */
 
 .opinion-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-top: 30px;
     background: #FFFFFF;
     width: 100%;
-    height: 200px;
+    height: 350px;
     border-radius: 16px;
 
 }
@@ -242,10 +246,35 @@ button{
 
 
 
-.tablee ,tr ,th ,td{
-    border: 1px solid greenyellow;
-    border-collapse: 1;
+table ,tr ,th ,td{
+    border: 1px solid#0E0E0E26;
+    border-collapse: collapse;
+    padding: 15px;
 }
+.opn-btn{
+    padding: 15px;
+    width: 150px;
+    background: #C6E4D6;
+    border-radius: 5px;
+    border-color: #0E0E0E;
+}
+th {
+    background:#C6E4D6;
+    border-left: none;
+}
+.th-1{
+    border-left: none;
+}
+.th-2{
+    border-right: none;
+}
+
+
+
+
+
+
+
 
        /* .opinion-section */
 
