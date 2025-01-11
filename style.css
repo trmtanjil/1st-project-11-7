@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:1080px;
+    margin: 20px auto;
+    background-color: #eeeeee;
+    font-family: "Fira Sans", serif;
+}
+.nabBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nabBar button{
+    width: 116px;
+    height: 52px;
+    border: 1.5px solid #006A50;
+    border-radius: 5px;
+    color: #006A50;
+    font-weight: 700;
+}
+.bannar-mian{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    background-color: #c9eddd;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.bannar-child-1 h4{
+    opacity: 0.5;
+    margin: 10px;
+}
+.banner-h1{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.bannar-child-1 button{
+    width: 270px;
+    font-weight: 600;
+    size: 18px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+.bannar-img{
+    width: 400px;
+    height: 400px;
+}
+.Pillars-ofbd-main{
+    height: 324px;
+
+}
+.pillars-h1{
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 40px;
+}
+.Pillars-ofbd-main-child{
+    width: 210px;
+    height: 190px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0.5px solid#d1d8e0;
+}
+.pillears-all{
+    display: flex;
+    justify-content: space-between;
+}
+.pillars-img{
+    width: 50px;
+    height: 53px;
+}
+.pillars-h2{
+    margin: 20px 0 20px 0;
+}
+.pillars-p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #0E0E0EB2;
+}     
+
+
+          /* The Vision of Future  */
+
+.vision-h1{
+    margin-top:30px ;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0a0909;
+}
+.vision-p{
+    color: #0E0E0EB2;
+    margin: 20px 0 0 ;
+    font-weight: 400;
+}
+.vision-chld{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #5490F533;
+    margin-top: 30px;
+}
+.pillars-img{
+    height: 60px;
+    width: 60px;
+    color: #5490F5;
+}
+.pillars-h2{
+    width: 300px;
+    font-weight: 700;
+    size: 20px;
+}
+.pillars-p{
+    size: 15px;
+    color: #0E0E0EB2;
+}
+.vision-btn{
+    width: 130px;
+    font-weight: 600;
+    height: 35px;
+    color: white;
+    background: #5490F5;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.vision-child-all{
+    display: flex;
+    justify-content: space-between;
+}
+.vchild2{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    background-color:#C6E4D6;
+    margin-top: 30px;
+}
+.vchild3{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    background-color:#F7EBCF;
+    margin-top: 30px;
+}
+.vbtn2{
+    width: 130px;
+    font-weight: 600;
+    height: 35px;
+    color: white;
+    background: #09A15C;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}.vbtn3{
+    width: 130px;
+    font-weight: 600;
+    height: 35px;
+    color: white;
+    background:#FFC239;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.younus-section{
+    background-image: url(./assets/quote-bg.png) ;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+.younus-section-p1{
+
+    font-weight: 400;
+    font-size: 15px;
+    color: #0E0E0ECC;
+    margin-bottom: 20px;
+}
+.younus-section-h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0ECC;
+    margin-top: 20px;
+}
+.younus-section-p2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+                  
+                      /* your opinion matters  */
+
+.opinion-section{
+    margin-top: 30px;
+    background: #FFFFFF;
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+}
+.opinion-th{
+    width: 1000px;
+    background-color: #C6E4D6;
+}   
+
+span{
+    text-align: right;
+}
+
+       /* .opinion-section */
+
+
+
+
+
+       /* news section  */
+
+.news-h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top:50px ;
+
+}
+.news-p{
+margin: 30px 0;
+font-weight: 400;
+font-size: 15px;
+color: #0E0E0EB2;
+}
+
+.news-section-child{
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.news-section-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.news-img{
+ width: 300px;
+ height: 250px;
+ border-radius: 15px;
+}
+.news-section-child-1{
+    width: 700px;
+  
+}
+.news-section-child-1-h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #0e0e0ecc;
+}
+.news-img-1{
+    width: 130px;
+    height: 40px;
+    padding: 20px 0;
+}
+.news-p1{
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #0E0E0EB2;
+}
+.news-p2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    padding-bottom: 20px ;
+}
+.news-btn{
+    width: 135px;
+    font-weight: 600;
+    size: 18px;
+    height: 45px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+                          /* DOnate Today  */
+.donet-pric{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.donet-con{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.donat-h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+}
+.donat-p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    padding-bottom: 10px ;
+}
+.donat-child-2{
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+
+}
+.donet-input{
+    display: block;
+    height: 50px;
+    width: 900px;
+    border: none;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 2px ;
+}
+.donet-btn{
+    width: 135px;
+    font-weight: 600;
+    size: 18px;
+    height: 45px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+
+}
+
+.donat-child-2-2 {
+    background: #C6E4D6 ;
+}
+.donat-inpu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+                        /* subscriopt-section  */
+
+
+.subscrib-main{
+    margin-top: 60px;
+    padding: 80px 100px;
+    background: #C6E4D6;
+    border-radius: 24px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.subscrib-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.subs-h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.subs-p{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 12px 0px;
+    color: #0E0E0EB2;
+}
+
+.subs-inpt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    background: #FFFFFF;
+    height: 50px;
+    border-radius: 10px;
+    padding:0px 0px 0px 12px;
+    overflow: hidden;
+}
+.sybs-enter{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+
+}
+.subs-btn{
+    border: none;
+    background: #006A50;
+    width: 131px;
+    height: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.subs-p2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0EB2;
+    margin: 30px 0px;
+}
+
+           /* footer  */
+
+footer{
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.fotter{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+footer h1{
+    padding: 16px;
+}
+hr{
+    width: 70%;
+}
+.div-hr{
+   border: 1px solid  #0E0E0E1A;
+   width: 80%;
+}
+.fot-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.fot-img img{
+    margin: 20px;
+}
