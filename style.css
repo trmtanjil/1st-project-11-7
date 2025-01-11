@@ -12,6 +12,14 @@ body{
     background-color: #eeeeee;
     font-family: "Fira Sans", serif;
 }
+button{
+    transition: 0.5s;
+}
+.button-main:hover{
+    background: #81ecec;
+    transition: 0.5s;
+    color: #1f1f1f;
+}
 .nabBar{
     display: flex;
     justify-content: space-between;
